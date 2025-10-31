@@ -1,0 +1,11 @@
+A Arquitetura Hexagonal é um padrão de arquitetura de software que pretende isolar os casos de uso em um nucleo da aplicação com os pontos de contato com o mundo exterior, como a interface do usuario e aplicações externas. Criada por alistar Alistair Cockburn, esta arquitetura promove isolamento da logica do negocio através de portas e adaptadores, sendo as portas interfaces para o mundo exterior e os adaptadores a implementação dessas portas.
+Como supracitado, a Arquitetura Hexagonal facilita possui diversos beneficios atraves do uso de seus recursos, como o isolamento da logica de negocios, e atraves da inversão de controle garante desacoplamento das tecnologias utilizadas. Também existe uma fácilidade aumentada nos testes, flexibilidade e escalabilidade.
+Em comparativo temos a clean Architecture, que mesmo tambem tendo como objetivo o isolamento dos casos de uso, a forma como ele é promovido é diferente: enquanto a hexagonal divide o projeto entre nucleo, portas e adaptadores, o clean tem uma visão mais em camadas tendo as camadas de entidadesm,caso de uso, controllers e frameworks/drivers. Outra diferença é que a hexagonal, sendo menos rigorosa, promove inicio mais rapido e entregas ágeis para projetos com menos burocracia, sendo a clean Architecture mais recomendada para casos de sistemas grandes onde haja mais necessidade de manutenção de longo prazo.
+A pesar de ter diversas vantagens existem casos em que não é recomendada a utilização da arquitetura hexagonal, como quando o projeto é muito pequeno e que não sera necessária muita manutenção/ criação de features. Antes de iniciar o desenvolvimento deve ser feito um levantamento da viabilidade e verificar se há formas mais eficientes de resolver o problema.
+
+
+
+
+
+
+
